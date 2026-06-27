@@ -31,7 +31,7 @@
 - Founding engineer for an AI-native EV trucking logistics platform, building the core FastAPI, React, Postgres, and AWS architecture from zero to live fleet operations supporting 50+ trucks
 - Architected and deployed a production multi-agent runtime on AWS Bedrock AgentCore, automating dozens of manual workflows across dispatch, fleet monitoring, and billing with human-in-the-loop approvals, auditability, and escalation paths
 - Built an in-house dispatch optimization engine with Google OR-Tools CP-SAT, cutting daily dispatch planning from 3 hours to 10 minutes and increasing truck utilization by packing more loads per shift under hours-of-service, shift-duration, and load-priority constraints
-- Delivered Gemini-powered rate confirmation parsing that extracts load details from PDFs via geocoding, fuzzy matching, and data deduplication, cutting manual load-entry time ~90% and letting ops onboard new loads in seconds instead of hand-keying each one
+- Delivered Gemini-powered rate confirmation parsing that extracts load details from PDFs via geocoding, fuzzy matching, and data deduplication, cutting manual load-entry entirely and letting ops onboard new loads in seconds instead of hand-keying each one
 - Established production infrastructure end to end, building Terraform-managed AWS and GCP environments, CI/CD pipelines, continuous deployment, and observability
 
 #work(
