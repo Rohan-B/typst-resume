@@ -37,10 +37,9 @@
   company: "Nevoya",
   dates: dates-helper(start-date: "Aug 2024", end-date: "Present"),
 )
-- Founding engineer for an AI-native logistics management platform for an EV trucking fleet; built core product and infrastructure across FastAPI, React, Postgres, and AWS ECS
-- Established the initial engineering foundation, including authentication, database migrations, CI/CD, deployment infrastructure, and core dispatch domain models; authored 35% of all commits across the app
+- Founding engineer for an AI-native EV trucking logistics platform; built the initial product and engineering foundation across FastAPI, React, Postgres, and AWS
 - Built a multi-agent runtime on AWS Bedrock AgentCore, enabling first-party AI agents and human-operated connectors to safely share logistics workflows through a dual-auth MCP tool layer
-- Replaced HERE Tour Planning with an in-house dispatch optimization engine using Google OR-Tools CP-SAT, modeling driver shifts as a VRP with time windows, hours-of-service constraints, shift-duration bounds, and load prioritization tailored to real fleet operations
+- Built an in-house dispatch optimization engine using Google OR-Tools CP-SAT, modeling driver shifts as a VRP with time windows, hours-of-service constraints, shift-duration bounds, and load prioritization tailored to real fleet operations
 - Migrated Samsara geofence processing from long-running ECS workers to SQS-triggered Lambda, retiring ~1,300 lines of worker code and improving retry isolation with partial-batch failure handling
 - Built Gemini-powered rate confirmation parsing that extracted stops, locations, and appointment times from uploaded PDFs, using geocoding and fuzzy matching to deduplicate operational data
 - Modeled non-load driver activity — maintenance, trailer repositioning, yard reports — as a first-class operational tracking domain, reusing dispatch stop and leg semantics while avoiding brittle model inheritance
