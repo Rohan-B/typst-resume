@@ -30,8 +30,8 @@
 )
 - Founding engineer for an AI-native EV trucking logistics platform, building the core FastAPI, React, Postgres, and AWS architecture from zero to live fleet operations supporting 50+ trucks
 - Architected and deployed a production multi-agent runtime on AWS Bedrock AgentCore, automating dozens of manual workflows across dispatch, fleet monitoring, and billing with human-in-the-loop approvals, auditability, and escalation paths
-- Built an in-house dispatch optimization engine with Google OR-Tools CP-SAT, reducing daily dispatch planning from 3 hours to 10 minutes while satisfying hours-of-service, shift-duration, and load-priority constraints
-- Delivered Gemini-powered rate confirmation parsing to extract load details from PDFs, cutting manual load-entry time by ~90% via geocoding, fuzzy matching, and operational data deduplication
+- Built an in-house dispatch optimization engine with Google OR-Tools CP-SAT, cutting daily dispatch planning from 3 hours to 10 minutes and increasing truck utilization by packing more loads per shift under hours-of-service, shift-duration, and load-priority constraints
+- Delivered Gemini-powered rate confirmation parsing that extracts load details from PDFs via geocoding, fuzzy matching, and data deduplication, cutting manual load-entry time ~90% and letting ops onboard new loads in seconds instead of hand-keying each one
 - Established production infrastructure end to end, building Terraform-managed AWS and GCP environments, CI/CD pipelines, continuous deployment, and observability
 
 #work(
@@ -41,11 +41,12 @@
   dates: dates-helper(start-date: "Aug 2020", end-date: "Aug 2024"),
 )
 - Technical lead for a 6-person platform team, owning roadmap planning, architecture design, and execution across domain modeling and notebook infrastructure initiatives
-- Led implementation of Domain Graph, a company-wide platform for defining, documenting, and generating external facing product models, aligning engineering teams around domain-driven design
-- Built tooling to generate internal and external REST and GraphQL APIs from Domain Graph definitions, saving an estimated 6+ months of engineering effort on a major product initiative
+- Led Domain Graph, a company-wide platform that let product teams define, document, and ship external-facing data models from a single source of truth
+- Built tooling to auto-generate internal and external REST and GraphQL APIs from those definitions, saving 6+ months of engineering effort and accelerating the launch of a new bioprocess product
 - Redesigned notebook spreadsheet evaluation and caching, reducing P90 load times from up to 3 minutes to under 1 second
 - Architected a large-scale Postgres migration and backfill across 11B rows using Celery distributed jobs, completing the migration without disrupting production workflows
-- Designed and integrated a new WebSocket architecture for real-time notebook collaboration, enabling new product verticals and supporting 200k+ users with up to 50 concurrent collaborators in a document
+- Enabled real-time, multi-user notebook collaboration (up to 50 concurrent editors per document) by designing a new WebSocket architecture, unblocking new product verticals and serving 200k+ scientists
+- Co-inventor, US Patent 12,555,651, _Bioprocess Execution Workflow Interfaces_
 
 #work(
   title: "Software Engineer",
